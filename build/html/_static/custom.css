@@ -1,0 +1,76 @@
+.wy-side-nav-search, .wy-nav-top {
+}
+
+.wy-nav-content h3 {
+    font-size: 100% !important; /* 預設約 110%-120%，調成 100% 或更小 */
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+.wy-nav-content h4 {
+    font-size: 80% !important; /* 預設約 110%-120%，調成 100% 或更小 */
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+.wy-nav-content {
+    max-width: none !important; /* 你可以根據喜好調整數值，或改成 100% */
+}
+
+div.highlight {
+    background: #fef9e7 !important; /* 你想要的自訂底色（例如淡黃綠色） */
+    border: 1px solid #f9e79f !important;
+}
+
+.rst-content .blue {
+color: #2980b9; / 你可以換成自己喜歡的藍色色碼，例如 #0000ff /
+font-weight: bold; / 如果需要同時加粗也可以加上這行 */
+}
+
+/* 2. 如果是其他行內特殊標記自帶顏色，可以強制繼承父層的文字顏色 */
+.wy-nav-content .literal {
+    color: inherit !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* 強制將列表清單的項目符號（圓點、星號等）顏色設為繼承一般文字顏色，去除藍色 */
+.wy-nav-content ul li::marker,
+.wy-nav-content ol li::marker,
+.wy-nav-content ul,
+.wy-nav-content ol {
+    color: inherit !important;
+}
+
+/* 如果是行內單獨出現的星號或其他符號造成的藍色，強制繼承 */
+.wy-nav-content span {
+    color: inherit !important;
+}
+
+/* 放大所有 Sphinx list-table 的內文字體與表頭 */
+.rst-content table.docutils {
+    font-size: 1.5rem !important; /* 預設約 0.9rem - 1rem，可調整為 1.05rem ~ 1.15rem */
+}
+
+/* 調整表頭字體大小與間距 */
+.rst-content table.docutils th {
+    font-size: 1.1rem !important;
+    padding: 10px 12px;
+}
+
+/* 調整表格儲存格內文字間距 */
+.rst-content table.docutils td {
+    padding: 10px 12px;
+}
+
+/* 設定圖片外框、內距與微陰影（看起來像精緻的相框） */
+.rst-content img.bordered-img,
+.rst-content div.figure.bordered-img img {
+    border: 1px solid #d0d7de;       /* 邊框顏色與粗細 */
+    padding: 6px;                   /* 圖片與外框之間的留白（可選） */
+    background-color: #ffffff;      /* 留白處的背景色 */
+    border-radius: 4px;             /* 圓角（不需要圓角可刪除此行） */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05); /* 淡淡的陰影，讓圖片更有質感 */
+}

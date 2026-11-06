@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="y" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Functional analysis &mdash; ProbioMinServer2 18 October 2023 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=7d497460" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=f870e908"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Database search" href="Database_search.html" />
+    <link rel="prev" title="Safety analysis" href="Safety.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            ProbioMinServer2
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Usage</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Usage/Submit.html">Submit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Usage/Search.html">Search</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Usage/Browse.html">Browse</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Results</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Genome_identification.html">Genome identification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Circos.html">Circos plot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Safety.html">Safety analysis</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Functional analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Database_search.html">Database search</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cgMLST.html">cgMLST anaslysis</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Other informations</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Other/Version.html">List of software and databases used in ProbioMinServer2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Other/Browser_compatibility.html">Browser compatibility</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ProbioMinServer2</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Functional analysis</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/Results/Functional.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="functional-analysis">
+<h1>Functional analysis<a class="headerlink" href="#functional-analysis" title="Link to this heading"></a></h1>
+<table style="width: 100%; border: none; border-collapse: collapse; background: transparent; margin: 20px 0;">
+  <!-- 上方兩張圖片 -->
+  <tr>
+    <td style="width: 50%; padding: 15px; vertical-align: top; background: transparent; text-align: center;">
+      <img src="../_images/3-3-4.png" alt="Image 1" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+      <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Examples of ARGs results (Left)</p>
+    </td>
+
+    <td style="width: 50%; padding: 15px; vertical-align: top; background: transparent; text-align: center;">
+      <img src="../_images/enrichment.png" alt="Image 2" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+      <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Examples of Plasmid results (Right)</p>
+    </td>
+  </tr>
+
+  <!-- 下方一張圖片（置中，寬度與上方一致形成倒三角形） -->
+  <tr>
+    <td colspan="2" style="padding: 15px; vertical-align: top; background: transparent; text-align: center;">
+      <div style="display: inline-block; width: 50%; text-align: left;">
+        <img src="../_images/3-3-7.png" alt="Image 3" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Examples of Third results (Bottom)</p>
+      </div>
+    </td>
+  </tr>
+</table><div style="margin-bottom: 15px;">
+  <p style="font-size: 1.15rem; font-weight: bold; color: #222; margin-bottom: 15px;">
+    Functional analysis includes the following components :
+  </p>
+
+  <div style="margin-left: 20px; line-height: 1.7;">
+    <p style="margin-bottom: 10px;">
+      <strong>KEGG pathway</strong><br>
+      <p style="margin-bottom: 10px; margin-left: 20px;">
+        Maps genes to known biochemical metabolic networks and signal transduction pathways, facilitating a holistic understanding of the strain's overall metabolic capacity and system-level functions.
+      </p>
+    </p>
+
+    <p style="margin-bottom: 10px;">
+      <strong>KEGG function</strong><br>
+      <p style="margin-bottom: 10px; margin-left: 20px;">
+        Performs functional classification and annotation of genes, assigning them to specific molecular functions and enzymatic roles to evaluate the genome's functional composition profiles.
+      </p>
+    </p>
+
+    <p style="margin-bottom: 10px;">
+      <strong>COGs</strong><br>
+      <p style="margin-bottom: 10px; margin-left: 20px;">
+        Aligns and classifies protein sequences into distinct functional categories labeled from A to Z, systematically profiling the proportion and distribution of the strain's gene composition across biological function groups.
+      </p>
+    </p>
+
+    <p style="margin-bottom: 10px;">
+      <strong>CAZy</strong><br>
+      <p style="margin-bottom: 10px; margin-left: 20px;">
+        Classifies enzymes involved in the synthesis, degradation, or modification of carbohydrates, providing an evaluation of the strain's capacity to utilize polysaccharides and carbohydrates.
+      </p>
+    </p>
+
+    <p style="margin-bottom: 10px;">
+      <strong>antiSMASH</strong><br>
+      <p style="margin-bottom: 10px; margin-left: 20px;">
+        Serves as a standard analytical tool for the automated identification, annotation, and structural prediction of secondary metabolite biosynthetic gene clusters (BGCs) within the genome.
+      </p>
+    </p>
+
+    <p style="margin-bottom: 10px;">
+      <strong>gutSMASH</strong><br>
+      <p style="margin-bottom: 10px; margin-left: 20px;">
+        Primary metabolite analysis of bacterial strains
+      </p>
+    </p>
+  </div>
+</div></section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Safety.html" class="btn btn-neutral float-left" title="Safety analysis" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Database_search.html" class="btn btn-neutral float-right" title="Database search" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, labcc.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
