@@ -9,12 +9,12 @@ Functional analysis
      <!-- 上方兩張圖片 -->
      <tr>
        <td style="width: 50%; padding: 15px; vertical-align: top; background: transparent; text-align: center;">
-         <img src="../_images/3-3-4.png" alt="Image 1" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+         <img src="../_static/3-3-4.png" alt="Image 1" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
          <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Distribution of KEGG function result</p>
        </td>
        
        <td style="width: 50%; padding: 15px; vertical-align: top; background: transparent; text-align: center;">
-         <img src="../_images/enrichment.png" alt="Image 2" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+         <img src="../_static/enrichment.png" alt="Image 2" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
          <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Enrichment profiles of COGs result</p>
        </td>
      </tr>
@@ -23,7 +23,7 @@ Functional analysis
      <tr>
        <td colspan="2" style="padding: 15px; vertical-align: top; background: transparent; text-align: center;">
          <div style="display: inline-block; width: 50%; text-align: left;">
-           <img src="../_images/3-3-7.png" alt="Image 3" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+           <img src="../_static/3-3-7.png" alt="Image 3" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
            <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">antismash result</p>
          </div>
        </td>

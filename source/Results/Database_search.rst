@@ -15,7 +15,7 @@ Database search
        
        <!-- 右側圖片欄位 -->
        <td style="width: 50%; padding: 15px; vertical-align: top; background: transparent; text-align: center;">
-         <img src="../_images/3-6-1.png" alt="Right Image" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+         <img src="../_static/3-6-1.png" alt="Right Image" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
          <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Compare the COGs results with strains in the database</p>
        </td>
      </tr>

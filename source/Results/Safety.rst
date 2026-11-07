@@ -9,13 +9,13 @@ Safety analysis
      <tr>
        <!-- 左側圖片欄位 -->
        <td style="width: 50%; padding: 15px; vertical-align: top; background: transparent; text-align: center;">
-         <img src="../_images/3-2-2.png" alt="Left Image" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+         <img src="../_static/3-2-2.png" alt="Left Image" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
          <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Examples of ARGs results</p>
        </td>
        
        <!-- 右側圖片欄位 -->
        <td style="width: 50%; padding: 15px; vertical-align: top; background: transparent; text-align: center;">
-         <img src="../_images/3-2-5.png" alt="Right Image" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+         <img src="../_static/3-2-5.png" alt="Right Image" style="width: 100%; border: 1px solid #d0d7de; padding: 6px; background: #fff; border-radius: 4px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
          <p style="text-align: center; font-size: 0.95rem; color: #333; margin-top: 10px; margin-bottom: 0;">Examples of Plasmid results</p>
        </td>
      </tr>
